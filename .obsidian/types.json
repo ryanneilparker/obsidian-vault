@@ -1,0 +1,17 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Shower": "checkbox",
+    "Shave": "checkbox",
+    "Water": "number",
+    "Meditate": "checkbox",
+    "Stretch": "checkbox",
+    "Exercise": "checkbox",
+    "Post": "checkbox",
+    "Yoga": "checkbox",
+    "Study": "checkbox",
+    "Work": "checkbox"
+  }
+}
