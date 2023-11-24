@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ff2b4d4525bbb364",
+        "id": "7f3ef160f68b20eb",
         "type": "tabs",
         "children": [
           {
-            "id": "6ace4911a88f0c0a",
+            "id": "336970db0e8f4a32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-notes/2023-11-23.md",
+                "file": "daily-notes/2023-11-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f34c45a87314f71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-notes/2023-11-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85a57af3732cb7ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-notes/2023-11-24.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "98b31c25c7cd86fa",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-notes/2023-11-23.md",
+                "file": "daily-notes/2023-11-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-notes/2023-11-23.md",
+                "file": "daily-notes/2023-11-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-notes/2023-11-23.md"
+                "file": "daily-notes/2023-11-24.md"
               }
             }
           }
@@ -146,39 +171,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ace4911a88f0c0a",
+  "active": "fe2b47bfb0713875",
   "lastOpenFiles": [
-    "daily-notes/2023-11-22.md",
+    "blogs",
+    "daily-notes/2023-11-24.md",
+    "git.md",
+    "linux.md",
+    "vscode.md",
+    "docker.md",
+    "vim.md",
+    "python.md",
+    "knowledge/vim/vim-cheat-sheet.md",
+    "knowledge/python/selenium-browser-automation.md",
+    "knowledge/docker/overview.md",
     "daily-notes/2023-11-23.md",
+    "daily-notes/2023-11-22.md",
     "notes/aws-dva-c02.md",
     "templates/daily-note.md",
     "daily-notes/2023-11-20.md",
     "daily-notes/2023-11-18.md",
     "knowledge/albert",
-    "knowledge/docker/overview.md",
-    "Untitled.md",
     "daily-notes/2023-11-14.md",
     "knowledge/docker",
     "daily-notes/2023-11-13.md",
     "daily-notes/2023-11-10.md",
     "daily-notes/2023-11-09.md",
-    "knowledge/vim/vim-cheat-sheet.md",
     "knowledge/vim",
     "daily-notes/2023-11-08.md",
     "daily-notes/2023-11-06.md",
-    "knowledge/python/selenium-browser-automation.md",
     "daily-notes/2023-11-05.md",
     "knowledge/python",
     "daily-notes/2023-11-03.md",
     "daily-notes/2023-11-02.md",
-    "notes/aws-share.md",
-    "daily-notes/2023-11-01.md",
-    "daily-notes/2023-10-31.md",
-    "notes/jamie-dev.md",
-    "projects/overtime.md",
     "notes",
-    "daily-notes/2023-10-30.md",
-    "daily-notes/2023-10-20.md",
     "knowledge/javascript/Untitled",
     "knowledge/javascript/modules",
     "knowledge/javascript/templates",
