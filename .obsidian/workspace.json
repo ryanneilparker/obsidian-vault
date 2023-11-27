@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f3ef160f68b20eb",
+        "id": "4bf6e075412ee66d",
         "type": "tabs",
         "children": [
           {
-            "id": "336970db0e8f4a32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-notes/2023-11-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f34c45a87314f71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-notes/2023-11-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85a57af3732cb7ee",
+            "id": "799440200a5ce3f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,19 +20,19 @@
             }
           },
           {
-            "id": "1d9d9f183655ffb6",
+            "id": "c2a7afa3e2195b67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "23-11-24-aws-regions-and-availability-zones.md",
+                "file": "content/aws-regions-and-availability-zones.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "23-11-24-aws-regions-and-availability-zones.md",
+                "file": "content/aws-regions-and-availability-zones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "23-11-24-aws-regions-and-availability-zones.md",
+                "file": "content/aws-regions-and-availability-zones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "23-11-24-aws-regions-and-availability-zones.md"
+                "file": "content/aws-regions-and-availability-zones.md"
               }
             }
           }
@@ -183,12 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d9d9f183655ffb6",
+  "active": "fe2b47bfb0713875",
   "lastOpenFiles": [
     "notes/aws-dva-c02.md",
+    "content/aws-regions-and-availability-zones.md",
+    "daily-notes/2023-11-27.md",
+    "content",
     "23-11-24-aws-regions-and-availability-zones.md",
     "daily-notes/2023-11-24.md",
-    "blogs",
+    "content",
     "git.md",
     "linux.md",
     "vscode.md",
@@ -214,12 +193,9 @@
     "daily-notes/2023-11-06.md",
     "daily-notes/2023-11-05.md",
     "knowledge/python",
-    "daily-notes/2023-11-03.md",
-    "daily-notes/2023-11-02.md",
     "notes",
     "knowledge/javascript/Untitled",
     "knowledge/javascript/modules",
-    "knowledge/javascript/templates",
-    "knowledge/javascript"
+    "knowledge/javascript/templates"
   ]
 }
