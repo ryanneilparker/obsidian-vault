@@ -4,30 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "4bf6e075412ee66d",
+        "id": "c0ee16a6a4dee67b",
         "type": "tabs",
         "children": [
           {
-            "id": "799440200a5ce3f5",
+            "id": "809b1b4ac3d19f65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/aws-dva-c02.md",
+                "file": "daily-notes/2023-12-09.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c2a7afa3e2195b67",
+            "id": "e687f41642f2e050",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/aws-regions-and-availability-zones.md",
+                "file": "projects/sticker-factory.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "8c28ddcb64d4f6f1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
               }
             }
           }
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/aws-regions-and-availability-zones.md",
+                "file": "projects/sticker-factory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/aws-regions-and-availability-zones.md",
+                "file": "projects/sticker-factory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/aws-regions-and-availability-zones.md"
+                "file": "projects/sticker-factory.md"
               }
             }
           }
@@ -161,41 +171,42 @@
   },
   "active": "fe2b47bfb0713875",
   "lastOpenFiles": [
-    "notes/aws-dva-c02.md",
-    "content/aws-regions-and-availability-zones.md",
-    "daily-notes/2023-11-27.md",
-    "content",
-    "23-11-24-aws-regions-and-availability-zones.md",
-    "daily-notes/2023-11-24.md",
-    "content",
-    "git.md",
-    "linux.md",
-    "vscode.md",
-    "docker.md",
-    "vim.md",
-    "python.md",
-    "knowledge/vim/vim-cheat-sheet.md",
-    "knowledge/python/selenium-browser-automation.md",
-    "knowledge/docker/overview.md",
-    "daily-notes/2023-11-23.md",
-    "daily-notes/2023-11-22.md",
+    "daily-notes/2024-01-14.md",
+    "projects/sticker-factory.md",
+    "daily-notes/2024-01-08.md",
+    "daily-notes/2024-01-03.md",
+    "daily-notes/2023-12-09.md",
+    "css.md",
+    "daily-notes/2023-12-07.md",
+    "daily-notes/2023-12-06.md",
+    "daily-notes/2023-12-05.md",
+    "projects/nautes.md",
+    "daily-notes/2023-12-04.md",
+    "daily-notes/2023-12-02.md",
+    "projects/rhetoric.md",
+    "projects/overtime.md",
+    "daily-notes/2023-12-01.md",
+    "sporos/gravity-battery.md",
+    "sporos/contracts.md",
+    "sporos/sporos.md",
+    "property-hexagon.md",
+    "daily-notes/2023-11-29.md",
+    "sporos/solar-farm.md",
+    "sporos/energy.md",
+    "sporos/hexagon.md",
+    "sporos/desalination-plant.md",
+    "sporos/potential-energy-by-mass.png",
+    "Untitled",
+    "sporos",
     "templates/daily-note.md",
-    "daily-notes/2023-11-20.md",
-    "daily-notes/2023-11-18.md",
+    "notes/aws-dva-c02.md",
+    "content",
+    "content",
     "knowledge/albert",
-    "daily-notes/2023-11-14.md",
     "knowledge/docker",
-    "daily-notes/2023-11-13.md",
-    "daily-notes/2023-11-10.md",
-    "daily-notes/2023-11-09.md",
     "knowledge/vim",
-    "daily-notes/2023-11-08.md",
-    "daily-notes/2023-11-06.md",
-    "daily-notes/2023-11-05.md",
     "knowledge/python",
     "notes",
-    "knowledge/javascript/Untitled",
-    "knowledge/javascript/modules",
-    "knowledge/javascript/templates"
+    "knowledge/javascript/Untitled"
   ]
 }

@@ -1,0 +1,1 @@
+solar farms are the primary mode of general energy generation.

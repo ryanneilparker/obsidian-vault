@@ -463,3 +463,65 @@ You are responsible for:
 - Recommended to minimize the AMI configuration and reduce cool downs to enable fast scaling.
 - You can use ASGs to update all instances with a new launch template using Instance Refresh.
 - When using an instance refresh we must specify a minimum healthy percentage, and a warm up time.
+## AWS Fundamentals
+### RDS (Relational Database Service)
+- a managed DB service for DBs using SQL.
+- Allows you to create cloud databases that are managed by AWS.
+- Flavors include: Postgres, MySQL, MariaDB, Oracle, MSS, Aurora (AWS proprietary database).
+- RDS offers automated provisioning and OS patching.
+- Continuous backups and point-in-time restore.
+- Monitoring dashboards.
+- Read replicas for improved read performance.
+- Multi-AZ setup for disaster recovery.
+- automatic vertical and horizontal scalability.
+- Storage backed by EBS (gp2 or io1)
+- You cannot SSH into an RDS instance.
+- Must set a maximum storage threshold to trigger scaling.
+### Read Replicas
+- Allow for read scalability.
+- You can have up to 15 replicas.
+- Within AZ, cross AZ, or even cross region.
+- Replication is asynchronous so their may be temporary inconsistencies.
+- Asynchronous Eventually Consistent Read Replication.
+- Replicas can easily be promoted to full DBs.
+- It is required that applications update there connection string in order to leverage replicas.
+- A common use case is for adding analytics (read heavy) to a production apps DB.
+- Data transfers within the same region are free for RDS.
+- RDS allows for multi-AZ standby failover with only single DNS using synchronous replication.
+- You can setup read replicas in a multi-AZ configuration.
+### Amazon Aurora
+- Proprietary database technology from AWS.
+- Compatible with Postgres and MySQL.
+- Aurora is cloud optimized and claims a 5x improvement over MySQL on RDS and a 3x performance gain over Postgres on RDS.
+- Storage automatically grows in steps of 10GB up to 128TB.
+- Aurora can have up to 15 replicas with <10ms replication times.
+- Failover is virtually instantaneous.
+- Aurora costs about 20% more than RDS but is more efficient.
+- Stores 6 copies of your data across 3 AZs.
+- Has self-healing peer-to-peer replication.
+- Storage is striped across 100s of volumes.
+- Only one master for writes by default.
+- Support for cross region replication.
+- Writer endpoint allows for single DNS failovers.
+- Reader endpoint, same as writer endpoint, connects to all read replicas, also allows for connection level load balancing.
+### Security
+- At-rest encryption
+	- Database master and replicas are encrypted using AWS KMS, defined at launch time.
+	- If the master is not encrypted the replicas cannot be either.
+	- To encrypt an already created DB go through a snapshot and restore exercise.
+- In-flight encryption
+	- TLS ready by default, use the AWS TLS root certificates client-side.
+- IAM authentication roles to connect to your DB instead of username and password.
+- Security groups to control network access to your RDS/Aurora DB.
+- No SSH available except for on RDS custom.
+- Audit logs can be enabled and sent to CloudWatch Logs for longer retention.
+### RDS Proxy
+- Fully managed database proxy for RDS.
+- Allows apps to pool and share DB connections.
+- Improves efficiency by reducing the stress on resources and minimizing open connections.
+- Serverless, auto-scaling, highly available (multi-AZ).
+- Reduced RDS and Aurora failover time by up to 66%.
+- Doesn't require any application code changes.
+- Enforce IAM for DB and store credentials in AWS secrets manager.
+- RDS proxy never publicly accessible (must be accessed from within VPC).
+- RDS Proxy is very useful for Lambda functions.

@@ -1,0 +1,1 @@
+a gravity batter consisting of water suspended in a shaft from a dynamo that drop slowly to provide power, the weight is winched up when there is solar energy from a [[solar-farm]]
